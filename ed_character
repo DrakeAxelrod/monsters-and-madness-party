@@ -1,0 +1,45 @@
+{
+  "name": "Rimidiris",
+  "age": 15,
+  "concept": "Skeleton",
+  "player": "Ed",
+  "description": [
+  ],
+  "refresh": 3,
+  "highConcept": {
+    "name": "Aspiring Artist",
+    "description": "Skeleton believes in creating his very own magnum opus, altough struggles with fulfilling these ambitions.",
+    "type": "aspect"
+  },
+  "trouble": {
+    "name": "Cursed To Jester",
+    "description": "Always wanted to be one for drama, everyone laughs at his attempts instead.",
+    "type": "aspect"
+  },
+  "aspects": [
+  ],
+  "skills": {
+    "athletics": 0,
+    "academics": 0,
+    "crafts": 0,
+    "deceive": 0,
+    "empathy": 0,
+    "fight": 0,
+    "investigate": 0,
+    "magic": 0,
+    "notoriety": 0,
+    "physique": 0,
+    "provoke": 0,
+    "rapport": 0,
+    "shoot": 0,
+    "stealth": 0,
+    "will": 0
+  },
+  "stunts": [],
+  "stress": {
+    "physical": [false, false],
+    "mental": [false, false]
+  },
+  "consequences": [],
+  "notes": [""]
+}
