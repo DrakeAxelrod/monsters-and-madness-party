@@ -1,14 +1,25 @@
 {
-  "name": "",
+  "name": "Ophelia Blackwood",
   "age": 14,
-  "concept": "",
+  "concept": "Arcanely Ethereal",
   "player": "",
   "description": [
+    "Ophelia Blackwood was a fearless young girl who grew up in the rugged streets of Texas, surrounded by a close-knit gang that doubled as a coven of witches. With a turbulent past, Ophelia found solace and camaraderie within the gang, forging bonds that went beyond mere friendship. However, the peace was shattered when a rival gang of dark witches launched a brutal attack, leaving Ophelia and her gang members dead.",
+
+    "But Ophelia's wrath and determination to seek justice were so strong that her spirit could not move on to the other side. Bound to the mortal realm as a ghost, she yearned for revenge against the evil witches responsible for her demise. To achieve her vengeance, she embarked on a quest to learn witchcraft herself, seeking to wield dark and light powers to punish all who committed evil deeds.",
+    
+    "After her death, Ophelia was taken in by a compassionate and open-minded family who recognized the goodness in her heart, despite her ghostly appearance. The family not only embraced her but also encouraged her to enroll in high school, hoping to provide her with a semblance of a normal life.",
+    
+    "However, as a loner by nature and still consumed by thoughts of vengeance, Ophelia finds it challenging to connect with her human peers. The haunting memories of her past keep her at a distance from others, even as she craves a sense of belonging and a familial bond. She struggles to balance her yearning for revenge with her newfound desire for a loving family."
   ],
   "refresh": 3,
   "highConcept": {
+    "name": "Hex's From Beyond",
+    "description": ""
   },
   "trouble": {
+    "name": "Entirely too Ethereal",
+    "description": "As a member of the departed, Ophelia is not entirely corporeal. She can't interact with the physical world without the use of the arcane, and even then it's not always reliable."
   },
   "aspects": [
   ],
@@ -21,10 +32,11 @@
     "fight": 0,
     "investigate": 0,
     "magic": 0,
-    "notoriety": 0,
+    "notoriety": 0, // Popular/contacts/Metaphysical influence on You
     "physique": 0,
     "provoke": 0,
     "rapport": 0,
+    "resources": 0,
     "shoot": 0,
     "stealth": 0,
     "will": 0
