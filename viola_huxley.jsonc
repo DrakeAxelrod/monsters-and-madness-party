@@ -18,19 +18,16 @@
   "refresh": 3,
   "highConcept": {
     "name": "Alluringly Awkward",
-    "description": "Viola is a shy and introverted succubus, more comfortable with her books than socializing. However, her supernatural charm starts drawing unwanted attention.",
-    "type": "aspect"
+    "description": "Viola is a shy and introverted succubus, more comfortable with her books than socializing. However, her supernatural charm starts drawing unwanted attention."
   },
   "trouble": {
     "name": "But I Didn't Want to Be Popular!",
-    "description": "Viola's succubus charm is awakening, and she finds herself attracting admirers without even trying, leading to awkward encounters and comical situations.",
-    "type": "aspect"
+    "description": "Viola's succubus charm is awakening, and she finds herself attracting admirers without even trying, leading to awkward encounters and comical situations."
   },
   "aspects": [
     {
       "name": "Bashful Demeanor",
-      "description": "Viola's bashful demeanor adds to her charm, making her endearingly awkward in social situations.",
-      "type": "aspect"
+      "description": "Viola's bashful demeanor adds to her charm, making her endearingly awkward in social situations."
     },
     {
       "name": "I Have a (Fake) Boyfriend",
