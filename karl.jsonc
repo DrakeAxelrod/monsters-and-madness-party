@@ -1,39 +1,90 @@
 {
-  "name": "",
-  "age": 14,
-  "concept": "",
-  "player": "",
-  "description": [
-  ],
-  "refresh": 3,
-  "highConcept": {
-  },
-  "trouble": {
-  },
-  "aspects": [
-  ],
-  "skills": {
-    "athletics": 0,
-    "academics": 0,
-    "crafts": 0,
-    "deceive": 0,
-    "empathy": 0,
-    "fight": 0,
-    "investigate": 0,
-    "magic": 0,
-    "notoriety": 0,
-    "physique": 0,
-    "provoke": 0,
-    "rapport": 0,
-    "shoot": 0,
-    "stealth": 0,
-    "will": 0
-  },
-  "stunts": [],
-  "stress": {
-    "physical": [false, false],
-    "mental": [false, false]
-  },
-  "consequences": [],
-  "notes": [""]
-}
+    "name": "Dustin Somniare",
+    "age": 14,
+    "concept": "Reluctant Dreamshifter",
+    "player": "Karl",
+    "description": [
+      "Meet Dustin Somnaire, a lad with an unremarkable face but an undeniable and unusual aura. At a cursory glance, he may blend with the crowd, but the moment one brushes past his shoulder, an inexplicable chill runs down their spine - an involuntary shudder of stepping into a dream...or nightmare.",
+  
+      "Dustin is the last descendant of The Dreamer, the one who accidentally unleashed the Catalyst, blurring the borders of reality and nightmares. With a lineage like that, you'd expect him to have some knack for manipulating dreams. And you'd be right.",
+  
+      "However, unlike his ambitious ancestor, Dustin just wants to lead an average life. Unfortunately, fate doesn't seem to agree. The dreams he touches seep into reality, spawning anomalies that make life...complicated. A casual daydream about pirate adventures might bring ghostly buccaneers to his coastal town, while a nightmare about a sea monster might result in a suspicious number of unexplained missing swimmers. Talk about an inconvenient power.",
+  
+      "Even with his reluctant involvement in the magical and supernatural, Dustin’s nature is akin to a lamb lost among wolves. Being a quiet, contemplative individual, he finds solace in ancient texts, often losing himself in the pages of forgotten lore and the world's deepest secrets. And yet, he has the unenviable ability to draw out the fantastical, no matter how hard he tries to avoid it.",
+  
+      "Just like the world of Monsters&Madness, Dustin's life is a chaotic mix of the ordinary and the extraordinary, constantly teetering on the edge of reality and nightmares."
+    ],
+    "refresh": 3,
+    "highConcept": {
+      "name": "Inherited Dreamweaver",
+      "description": "Dustin, a reluctant inheritor of The Dreamer's power, has the ability to bring dreams and nightmares into reality, leading to unpredictable and sometimes dangerous outcomes.",
+      "type": "aspect"
+    },
+    "trouble": {
+      "name": "Narcoleptic at the Worst Times",
+      "description": "Not only does Dustin struggle to distinguish between reality and his dreams, which leads to blurred lines and unintended manifestations of his nightmares into the real world. Dustin also has a habit of suddenly dozing off and shifting dreams, which can lead to awkward or funny situations.",
+      "type": "aspect"
+    },
+    "aspects": [
+      {
+        "name": "Accidental Guru of the Sleepless Knights",
+        "description": "The Sleepless Knights are a group of students who study the supernatural late into the night. In their tireless exploration of the supernatural, the Sleepless Knights have taken Dustin's random dream musings as deep, profound insights. Little do they know, Dustin's mostly just chatting about his day!",
+        "type": "aspect"
+      },
+      {
+        "name": "Retired Dream Eater on a Celery Diet",
+        "description": "Dustin used to gobble up dreams for sustenance, but these days he's gone vegetarian. He finds shifting dreams much less calorific and every bit as satisfying!",
+        "type": "aspect"
+      }
+    ],
+    "skills": {
+      "athletics": 1,
+      "academics": 4,
+      "crafts": 0,
+      "deceive": 2,
+      "empathy": 2,
+      "fight": 0,
+      "investigate": 2,
+      "lore": 3,
+      "magic": 3,
+      "notoriety": 0,
+      "physique": 1,
+      "provoke": 1,
+      "rapport": 1,
+      "shoot": 0,
+      "stealth": 1,
+      "will": 2
+    },
+    "stunts": [
+      {
+        "name": "Nap Time, Not Trap Time",
+        "description": "Dustin's got a knack for using his dream-shifting as a makeshift 'mental panic room'. He gets a +2 to Magic when defending against mental intrusion. Always alert, even when he's asleep."
+      },
+      {
+        "name": "Dream Therapis",
+        "description": "Just by slipping into someone's dreams, Dustin becomes an unwilling counselor, getting a sense of their fears and desires. He can use Lore instead of Empathy for that purpose. Freud would be jealous."
+      }
+    ],
+    "stress": {
+      "physical": [false, false],
+      "mental": [false, false, false, false]
+    },
+    "consequences": [
+    {
+      "name": "Bedhead Mayhem",
+      "description": "Dustin's dreamshifting causes his hair to stand on end, making him the butt of many jokes. (Physical)",
+      "type": "mild"
+    },
+    {
+      "name": "Narcoleptic Ninja",
+      "description": "Unexpected dreamshifts can put Dustin to sleep in the most inconvenient times and places. (Mental)",
+      "type": "moderate"
+    },
+    {
+      "name": "Dreamt Celebs Go Live!",
+      "description": "Dustin's dreamshift pulls people he dreamt about into reality, sparking wild confessions and chaos.",
+      "type": "severe"
+    }
+    ],
+    "notes": ["Dustin's dreams are starting to mess with the local paranormal TV reception - reruns of 'I Love Lucy' are turning oddly prophetic. He needs to invest in a dream diary and some stronger chamomile tea before his REM sleep cycles spiral out of control and start broadcasting 'Twilight Zone' episodes."]
+  }
