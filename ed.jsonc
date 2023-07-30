@@ -1,16 +1,32 @@
 {
-  "name": "",
-  "age": 14,
-  "concept": "",
-  "player": "",
+  "name": "Rimidiris",
+  "age": 15,
+  "concept": "Skeleton",
+  "player": "Ed",
   "description": [
   ],
   "refresh": 3,
   "highConcept": {
+    "name": "Aspiring Artist",
+    "description": "Skeleton believes in creating his very own magnum opus, altough struggles with fulfilling these ambitions.",
+    "type": "aspect"
   },
   "trouble": {
+    "name": "Cursed To Jester",
+    "description": "Always wanted to be one for drama, everyone laughs at his attempts instead.",
+    "type": "aspect"
   },
   "aspects": [
+    {
+      "name": "Potions Scary",
+      "description": "Rimidiris once blew up a laboratory in chemistry class, and has since then an incredible fear of potions and bottles.",
+      "type": "aspect"
+    },
+    {
+      "name": "Fantasy Nerd",
+      "description": "Having once met a great writer that mixed genres of old medieval times and the supernatural, Rimidiris have always been fond of such.",
+      "type": "aspect"
+    }
   ],
   "skills": {
     "athletics": 0,
