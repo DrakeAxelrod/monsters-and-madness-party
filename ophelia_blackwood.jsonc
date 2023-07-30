@@ -45,7 +45,7 @@
     "fight": 0,
     "investigate": 1,
     "magic": 4,
-    "notoriety": 0, // Popular/contacts/Metaphysical influence on You
+    "notoriety": 0,
     "physique": 0,
     "provoke": 2,
     "rapport": 1,

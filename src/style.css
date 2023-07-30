@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Metamorphous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.cdnfonts.com/css/callie-chalk-font");
+
+:root {
+  --color-backdrop: #fafafa;
+  --color-chalkboard: #396146;
+  --color-border: #a1662f;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-backdrop);
+  font: 12pt "Josefin Sans", serif;
+}
+
+.page {
+  width: 21cm;
+  /* min-height: 29.7cm; */
+  height: 29.7cm;
+  /* padding: 1cm; */
+  margin: 1cm auto;
+  border: 1px #D3D3D3 solid;
+  border-radius: 5px;
+  /* background: white; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* background: black;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/dpkklapvh/image/upload/v1690743847/images/misc/chalkboard-overlay.png'); */
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  /* padding: 1em; */
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  width: 100%;
+  /* margin: 0; */
+  /* padding: 1em; */
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-size: 0.75em;
+  width: 100%;
+  /* margin: 0; */
+  /* padding: 1em; */
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-size: 0.75em;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.character-portrait {
+  /* height: 10cm; */
+  width: 50%;
+  height: 50%;
+  /* height: 30%; */
+  margin-bottom: -8px;
+}
+
+.general-info {
+  width: 100%;
+  padding: 1rem;
+}
+.general-info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chalk {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='chalk'><feTurbulence result='T' numOctaves='3' seed='0' type='fractalNoise' baseFrequency='.4'/><feOffset dy='-2' dx='-2'/><feDisplacementMap in2='T' scale='5' xChannelSelector='R' yChannelSelector='G' in='SourceGraphic'/></filter></svg>#chalk");
+}
+
+
+.chalkboard {
+  display: flex;
+  flex-direction: column;
+  column-span: all;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset, 0 0 1rem rgba(0, 0, 0, 0.75);
+  border: var(--color-border) solid 10px;
+  /* border-radius: 10px; */
+  /* border-radius: 5px; */
+  /* background-color: var(--color-chalkboard); */
+  background: black;
+  margin: 0 4cm 0 0;
+  /* height: 100%;
+  width: 100%; */
+  width: 21cm;
+  /* min-height: 29.7cm; */
+  height: 29.7cm;
+  /* min-height: 29.7cm; */
+  color: #fff;
+  font-family: "Callie Chalk Font", cursive;
+  /* height: 16cm; */
+  background-position: center;
+  background-repeat: repeat;
+  /* background-size: cover; */
+  background-image: url('https://res.cloudinary.com/dpkklapvh/image/upload/v1690743847/images/misc/chalkboard-overlay.png');
+}
+
+.chalkboard:after {
+  content: "";
+  display: block;
+  border-radius: 0.1em 0.1em 0 0.1em;
+  width: 50px;
+  height: 8px;
+  background: #f1f1f1;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: 3rem;
+  box-shadow: inset 0 -4px 1px rgba(0, 0, 0, 0.3), -1px -1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(0, 0, 0, 0.3);
+}
