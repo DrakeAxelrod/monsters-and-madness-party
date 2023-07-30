@@ -1,14 +1,20 @@
 {
-  "name": "",
-  "age": 14,
-  "concept": "",
-  "player": "",
+  "name": "Rimidiris",
+  "age": 15,
+  "concept": "Skeleton",
+  "player": "Ed",
   "description": [
   ],
   "refresh": 3,
   "highConcept": {
+    "name": "Aspiring Artist",
+    "description": "Skeleton believes in creating his very own magnum opus, altough struggles with fulfilling these ambitions.",
+    "type": "aspect"
   },
   "trouble": {
+    "name": "Cursed To Jester",
+    "description": "Always wanted to be one for drama, everyone laughs at his attempts instead.",
+    "type": "aspect"
   },
   "aspects": [
   ],
