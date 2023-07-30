@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "age": 14,
+  "concept": "",
+  "player": "",
+  "description": [
+  ],
+  "refresh": 3,
+  "highConcept": {
+  },
+  "trouble": {
+  },
+  "aspects": [
+  ],
+  "skills": {
+    "athletics": 0,
+    "academics": 0,
+    "crafts": 0,
+    "deceive": 0,
+    "empathy": 0,
+    "fight": 0,
+    "investigate": 0,
+    "magic": 0,
+    "notoriety": 0,
+    "physique": 0,
+    "provoke": 0,
+    "rapport": 0,
+    "shoot": 0,
+    "stealth": 0,
+    "will": 0
+  },
+  "stunts": [],
+  "stress": {
+    "physical": [false, false],
+    "mental": [false, false]
+  },
+  "consequences": [],
+  "notes": [""]
+}
