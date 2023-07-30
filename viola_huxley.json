@@ -1,0 +1,95 @@
+{
+  "$ref": "https://gist.github.com/DrakeAxelrod/fb161e75e6be9ea9c0a2b99c34825047/raw/",
+  "name": "Viola Huxley",
+  "age": 14,
+  "concept": "Shy Succubus",
+  "player": "Drake",
+  "description": [
+    "Meet Viola Huxley, the young demon who's anything but your typical succubus sensation—well, at least not intentionally. At the tender age of 14, she's already embracing the 'hair curtain' look, much to her parents' dismay about photos. Who needs perfect pictures when you've got a mysterious hair veil, right?",
+
+    "You'd expect a succubus to be the life of every demon party, but not our dear Viola. She's got the whole shy and introverted thing down to an art form. Seriously, she probably daydreams about books more than a teenager should—escaping into those fantastical worlds seems to be her ultimate paradise.",
+
+    "Now, here's where things get amusing. Viola's got this uncanny superpower—her allure—that she just can't control. Imagine being so naturally charming that people fall under your spell without you even trying. Oh, the struggles of accidental charisma, right? It's no wonder she's unintentionally the center of attention... or lack thereof at parties.",
+
+    "Let's delve into her family life—a bunch of demon lawyers, no less. They might expect her to follow in their impressive footsteps, but Viola's got her hands full trying not to accidentally charm the entire world. Who needs law when you've got allure, huh?",
+
+    "So while her demon family is out there lawyering and doing whatever demons do, Viola's on a quest to master the art of not becoming an accidental heartthrob. As she flips through dusty ancient tomes, she's probably wishing for a chapter on 'How to Turn Off Your Charms 101.' Ah, the struggle of being a shy, bookish, and accidental sex-icon in the making. Such is Viola Huxley's life!"
+  ],
+  "refresh": 3,
+  "highConcept": {
+    "name": "Alluringly Awkward",
+    "description": "Viola is a shy and introverted succubus, more comfortable with her books than socializing. However, her supernatural charm starts drawing unwanted attention.",
+    "type": "aspect"
+  },
+  "trouble": {
+    "name": "But I Didn't Want to Be Popular!",
+    "description": "Viola's succubus charm is awakening, and she finds herself attracting admirers without even trying, leading to awkward encounters and comical situations.",
+    "type": "aspect"
+  },
+  "aspects": [
+    {
+      "name": "Bashful Demeanor",
+      "description": "Viola's bashful demeanor adds to her charm, making her endearingly awkward in social situations.",
+      "type": "aspect"
+    },
+    {
+      "name": "I Have a (Fake) Boyfriend",
+      "description": "To deal with unwanted advances, Viola uses her lore knowledge to create elaborate tales of a fictional boyfriend from a mystical realm.",
+      "type": "aspect"
+    }
+  ],
+  "skills": {
+    "athletics": 0,
+    "academics": 2,
+    "crafts": 0,
+    "deceive": 1,
+    "empathy": 2,
+    "fight": 0,
+    "investigate": 1,
+    "lore": 3,
+    "magic": 0,
+    "notoriety": 0,
+    "physique": 1,
+    "provoke": 0,
+    "rapport": 2,
+    "shoot": 0,
+    "stealth": 1,
+    "will": 2
+  },
+  "stunts": [
+    {
+      "name": "Demonic Distraction",
+      "description": "Uses her lore knowledge to create advantages and distract others with unintentional charm."
+    },
+    {
+      "name": "Subtle Encouragement",
+      "description": "Gains +2 to Empathy when helping friends with their crushes, despite her own shyness."
+    }
+  ],
+  "stress": {
+    "physical": [true, false],
+    "mental": [false, false]
+  },
+  "consequences": [
+  {
+    "name": "Black Eye",
+    "description": "Wickedly black eye from a punch to the face.",
+    "type": "mild"
+  }
+  ,
+  {
+    "name": "Drunk",
+    "description": "Found Parents' liquor cabinet and got sloshed.",
+    "type": "moderate"
+  }
+  ,
+  {
+    "name": "Trauma-Induced Phobia",
+    "description": "Way too many people have tried to kiss her, and she's developed a phobia of kissing.",
+    "type": "severe"
+  }
+  ],
+  "notes": [
+    "testing to see if this thing updates"
+  ]
+}
