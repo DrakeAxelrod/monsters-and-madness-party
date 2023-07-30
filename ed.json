@@ -17,6 +17,16 @@
     "type": "aspect"
   },
   "aspects": [
+    {
+      "name": "Potions Scary",
+      "description": "Rimidiris once blew up a laboratory in chemistry class, and has since then an incredible fear of potions and bottles.",
+      "type": "aspect"
+    },
+    {
+      "name": "Fantasy Nerd",
+      "description": "Having once met a great writer that mixed genres of old medieval times and the supernatural, Rimidiris have always been fond of such.",
+      "type": "aspect"
+    }
   ],
   "skills": {
     "athletics": 0,
