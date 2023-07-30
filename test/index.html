@@ -1,0 +1,88 @@
+<script type="text/babel">
+  const file = "viola_huxley.jsonc"
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Sheet</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/babel">
+      const root = document.createElement("div")
+      document.body.appendChild(root)
+      const render = async (Ele) => {
+        const data = await fetch(`../${file}`).then((data) => data.json())
+        ReactDOM.render(<Ele {...data} />, root)
+      }
+    </script>
+  </body>
+</html>
+
+<!-- React Code -->
+
+<script type="text/babel">
+  render((char) => {
+    return (
+      <main class="page">
+        <h1>{char.name}</h1>
+      </main>
+    )
+  })
+</script>
+
+<!-- CSS -->
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Metamorphous&display=swap");
+
+  :root {
+    --color-backdrop: #fafafa;
+  }
+
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-backdrop);
+    font: 12pt "Metamorphous", serif;
+  }
+
+  .page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  }
+</style>
