@@ -38,35 +38,34 @@
       }
     ],
     "skills": {
-      // one 4
-      // two 3s
-      // two 2s
-      // four 1
       "athletics": 1,
-      "academics": 4,
+      "academics": 4,  // This is his top skill as a studious dreamshifter
       "crafts": 0,
-      "deceive": 2,
-      "empathy": 2,
+      "deceive": 2,  // Skilled at misleading due to shifting realities
+      "empathy": 1,  // As a dreamshifter, he has to understand others on a basic level
       "fight": 0,
-      "investigate": 2,
-      "lore": 3,
-      "magic": 3,
+      "investigate": 2,  // Being a dreamshifter involves exploring the unknown
+      "magic": 3,  // As a supernatural entity, magic is a key skill
       "notoriety": 0,
-      "physique": 1,
-      "provoke": 1,
-      "rapport": 1,
+      "physique": 1,  // Physique reflects his ability to navigate the dream realm
+      "provoke": 0,
+      "rapport": 1,  // Basic social skill
       "shoot": 0,
-      "stealth": 1,
-      "will": 2
+      "stealth": 1,  // Stealth is necessary for discreet dreamshifting
+      "will": 3  // His strength of will directly affects his dreamshifting abilities
     },
     "stunts": [
+      {
+        "name": "Sleepwalker's Guile",
+        "description": "Navigating dreams and realities has given Dustin a unique perspective. He can use Deceive to create advantages when he confuses reality with dreams."
+      },
       {
         "name": "Nap Time, Not Trap Time",
         "description": "Dustin's got a knack for using his dream-shifting as a makeshift 'mental panic room'. He gets a +2 to Magic when defending against mental intrusion. Always alert, even when he's asleep."
       },
       {
         "name": "Dream Therapis",
-        "description": "Just by slipping into someone's dreams, Dustin becomes an unwilling counselor, getting a sense of their fears and desires. He can use Lore instead of Empathy for that purpose. Freud would be jealous."
+        "description": "Just by slipping into someone's dreams, Dustin becomes an unwilling counselor, getting a sense of their fears and desires. He can use Magic instead of Empathy for that purpose. Freud would be jealous."
       }
     ],
     "stress": {
