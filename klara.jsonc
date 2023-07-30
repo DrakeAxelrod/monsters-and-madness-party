@@ -1,8 +1,8 @@
 {
   "name": "Ophelia Blackwood",
   "age": 14,
-  "concept": "Arcanely Ethereal",
-  "player": "",
+  "concept": "Ethereal Witchery",
+  "player": "Klara",
   "description": [
     "Ophelia Blackwood was a fearless young girl who grew up in the rugged streets of Texas, surrounded by a close-knit gang that doubled as a coven of witches. With a turbulent past, Ophelia found solace and camaraderie within the gang, forging bonds that went beyond mere friendship. However, the peace was shattered when a rival gang of dark witches launched a brutal attack, leaving Ophelia and her gang members dead.",
 
@@ -15,36 +15,62 @@
   "refresh": 3,
   "highConcept": {
     "name": "Hex's From Beyond",
-    "description": ""
+    "description": "While quite dead, Ophelia has begun to learn the ways of witchcraft, and can use her ghostly powers to cast spells, hexes, and interact with the physical world (sometimes)."
   },
   "trouble": {
     "name": "Entirely too Ethereal",
     "description": "As a member of the departed, Ophelia is not entirely corporeal. She can't interact with the physical world without the use of the arcane, and even then it's not always reliable."
   },
   "aspects": [
+    {
+      "name": "Prone to Vengeance",
+      "description": "Ophelia has a tendency to seek revenge against those who have wronged her or her friends. She is not always rational in her pursuit of justice, and her desire for vengeance can sometimes cloud her judgment."
+    },
+    {
+      "name": "A Tendency to Spook",
+      "description": "Ophelia's ghostly appearance and supernatural abilities can be unsettling to those around her. She is often misunderstood and feared by others, which makes it difficult for her to connect with people."
+    },
+    {
+      "name": "Dead but Pet Friendly",
+      "description": "Ophelia has a black cat familiar (Wookie), who is one of the few guiding lights in her life. She is fiercely protective of Wookie and will do anything to keep him safe."
+    }
+
   ],
   "skills": {
     "athletics": 0,
     "academics": 0,
     "crafts": 0,
-    "deceive": 0,
-    "empathy": 0,
+    "deceive": 1,
+    "empathy": 1,
     "fight": 0,
-    "investigate": 0,
-    "magic": 0,
+    "investigate": 1,
+    "magic": 4,
     "notoriety": 0, // Popular/contacts/Metaphysical influence on You
     "physique": 0,
-    "provoke": 0,
-    "rapport": 0,
+    "provoke": 2,
+    "rapport": 1,
     "resources": 0,
-    "shoot": 0,
-    "stealth": 0,
-    "will": 0
+    "shoot": 2,
+    "stealth": 3,
+    "will": 3
   },
-  "stunts": [],
+  "stunts": [
+    {
+      "name": "Pet-Ossession",
+      "description": "Ophelia is able to possess her familiar, Wookie, and use him as a vessel to interact with the physical world. +2 to Athletics and Stealth when possessing Wookie."
+    },
+    {
+      "name": "Ghostly Presence",
+      "description": "Ophelia can use her ghostly presence to intimidate others. +2 to Provoke when using her ghostly appearance to intimidate others."
+    },
+    {
+      "name": "Punish the Wicked",
+      "description": "Ophelia can use her magic to punish those who have committed evil deeds. +2 to Magic when using her magic to punish those who have committed evil deeds."
+    }
+  ],
   "stress": {
     "physical": [false, false],
-    "mental": [false, false]
+    "mental": [false, false, false, false]
   },
   "consequences": [],
   "notes": [""]

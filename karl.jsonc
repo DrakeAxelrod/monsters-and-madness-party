@@ -17,24 +17,20 @@
     "refresh": 3,
     "highConcept": {
       "name": "Inherited Dreamweaver",
-      "description": "Dustin, a reluctant inheritor of The Dreamer's power, has the ability to bring dreams and nightmares into reality, leading to unpredictable and sometimes dangerous outcomes.",
-      "type": "aspect"
+      "description": "Dustin, a reluctant inheritor of The Dreamer's power, has the ability to bring dreams and nightmares into reality, leading to unpredictable and sometimes dangerous outcomes."
     },
     "trouble": {
       "name": "Narcoleptic at the Worst Times",
-      "description": "Not only does Dustin struggle to distinguish between reality and his dreams, which leads to blurred lines and unintended manifestations of his nightmares into the real world. Dustin also has a habit of suddenly dozing off and shifting dreams, which can lead to awkward or funny situations.",
-      "type": "aspect"
+      "description": "Not only does Dustin struggle to distinguish between reality and his dreams, which leads to blurred lines and unintended manifestations of his nightmares into the real world. Dustin also has a habit of suddenly dozing off and shifting dreams, which can lead to awkward or funny situations."
     },
     "aspects": [
       {
         "name": "Accidental Guru of the Sleepless Knights",
-        "description": "The Sleepless Knights are a group of students who study the supernatural late into the night. In their tireless exploration of the supernatural, the Sleepless Knights have taken Dustin's random dream musings as deep, profound insights. Little do they know, Dustin's mostly just chatting about his day!",
-        "type": "aspect"
+        "description": "The Sleepless Knights are a group of students who study the supernatural late into the night. In their tireless exploration of the supernatural, the Sleepless Knights have taken Dustin's random dream musings as deep, profound insights. Little do they know, Dustin's mostly just chatting about his day!"
       },
       {
         "name": "Retired Dream Eater on a Celery Diet",
-        "description": "Dustin used to gobble up dreams for sustenance, but these days he's gone vegetarian. He finds shifting dreams much less calorific and every bit as satisfying!",
-        "type": "aspect"
+        "description": "Dustin used to gobble up dreams for sustenance, but these days he's gone vegetarian. He finds shifting dreams much less calorific and every bit as satisfying!"
       }
     ],
     "skills": {
@@ -72,22 +68,6 @@
       "physical": [false, false],
       "mental": [false, false, false, false]
     },
-    "consequences": [
-    {
-      "name": "Bedhead Mayhem",
-      "description": "Dustin's dreamshifting causes his hair to stand on end, making him the butt of many jokes. (Physical)",
-      "type": "mild"
-    },
-    {
-      "name": "Narcoleptic Ninja",
-      "description": "Unexpected dreamshifts can put Dustin to sleep in the most inconvenient times and places. (Mental)",
-      "type": "moderate"
-    },
-    {
-      "name": "Dreamt Celebs Go Live!",
-      "description": "Dustin's dreamshift pulls people he dreamt about into reality, sparking wild confessions and chaos.",
-      "type": "severe"
-    }
-    ],
+    "consequences": [],
     "notes": ["Dustin's dreams are starting to mess with the local paranormal TV reception - reruns of 'I Love Lucy' are turning oddly prophetic. He needs to invest in a dream diary and some stronger chamomile tea before his REM sleep cycles spiral out of control and start broadcasting 'Twilight Zone' episodes."]
   }
